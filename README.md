@@ -104,7 +104,10 @@ let questions = [
 ### Step 3: Setting up index.html
 - HTML is used for structuring your code. Therefore, this file acts as the structure for your application.
 - Within this file, you will create HTML elements that will be used for rendering your application on the web browser.
-- Within this file, you will insert links to connect your html, css, js files together. See below code:
+- Within this file, you will insert links and scripts to connect your html, css, js files together. (See below code)
+    - We link CSS stylesheet style.css so that styling is applied to the HTML elements
+    - We link questions.js to load questions for manipulating within quizApp.js
+    - We link quizApp.js to apply dynamic features for interactivity to HTML elements
 ```html
 <!-- CSS FILE -->
 <link rel="stylesheet" href="css/style.css">
